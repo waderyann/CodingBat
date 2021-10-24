@@ -1,0 +1,4 @@
+public int[] makeEnds(int[] nums) {
+  int[] answer = {nums[0], nums[nums.length - 1]};
+  return answer;
+}
