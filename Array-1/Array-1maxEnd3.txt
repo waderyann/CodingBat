@@ -1,0 +1,9 @@
+public int[] maxEnd3(int[] nums) {
+  if (nums[0] < nums[nums.length - 1]){
+    int[] newArray = {nums[nums.length -1],nums[nums.length -1],nums[nums.length -1]};
+    return newArray;
+  }else{
+    int[] newArray = {nums[0],nums[0],nums[0]};
+    return newArray;
+  }
+}
