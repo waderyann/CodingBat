@@ -1,0 +1,6 @@
+def not_string(str):
+  first_word = str.split()[0]
+  if first_word == "not":
+    return str
+  else:
+    return "not " + str
